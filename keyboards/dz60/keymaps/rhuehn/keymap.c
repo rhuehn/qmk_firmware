@@ -1,8 +1,9 @@
 #include "dz60.h"
 
-#define _______ KC_TRNS
+#undef _______
+#define _______ KC_NO
 #define ___X___ KC_NO
-#define MO_CAPS	LT(MO(1),KC_CAPS)
+
 #define MO_ESC LT(MO(1),KC_ESC)
 #define KP_MINU KC_KP_MINUS
 #define KP_PLUS KC_KP_PLUS
