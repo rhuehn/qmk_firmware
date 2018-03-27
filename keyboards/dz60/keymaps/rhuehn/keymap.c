@@ -1,7 +1,6 @@
 #include "dz60.h"
 
-#undef _______
-#define _______ KC_NO
+#define _______ KC_TRNS
 #define ___X___ KC_NO
 
 #define MO_ESC LT(MO(1),KC_ESC)
@@ -15,17 +14,17 @@ KEYMAP(
     KC_LCTL,          KC_LGUI, KC_LALT, KC_BSPC,          MO(1)  ,          KC_SPC , KC_RALT, KC_RGUI, ___X___, MO(2)  ,          KC_RCTL),
 
 KEYMAP(
-    _______, KC_F1  , KC_F2  , KC_F3  , KC_F4  , KC_F5  , KC_F6  , KC_F7  , KC_F8  , KC_F9  , KC_F10 , KC_F11 , KC_F12 , ___X___, KC_DEL ,
-    _______,          _______, KC_HOME, KC_UP  , KC_END , KC_PGUP, KC_PGUP, KC_HOME, KC_UP  , KC_END , _______, _______, _______, _______,
-    KC_CAPS,          _______, KC_LEFT, KC_DOWN, KC_RGHT, KC_PGDN, KC_PGDN, KC_LEFT, KC_DOWN, KC_RGHT, _______, _______,          _______,
-    _______, ___X___, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,          ___X___,
+    ___X___, KC_F1  , KC_F2  , KC_F3  , KC_F4  , KC_F5  , KC_F6  , KC_F7  , KC_F8  , KC_F9  , KC_F10 , KC_F11 , KC_F12 , ___X___, KC_DEL ,
+    ___X___,          ___X___, KC_HOME, KC_UP  , KC_END , KC_PGUP, KC_PGUP, KC_HOME, KC_UP  , KC_END , ___X___, ___X___, ___X___, ___X___,
+    KC_CAPS,          ___X___, KC_LEFT, KC_DOWN, KC_RGHT, KC_PGDN, KC_PGDN, KC_LEFT, KC_DOWN, KC_RGHT, ___X___, ___X___,          ___X___,
+    _______, ___X___, ___X___, ___X___, ___X___, ___X___, ___X___, ___X___, ___X___, ___X___, ___X___, ___X___, _______,          ___X___,
     _______,          _______, _______, KC_DEL ,          _______,          KC_INS , _______, _______, ___X___, _______,          _______),
 
 KEYMAP(
-    _______, KC_MPRV, KC_MPLY, KC_MNXT, KC_VOLD, KC_VOLU, KC_MUTE, KC_PSCR, KC_SLCK, KC_PAUS, _______, _______, _______, ___X___, RESET  , 
-    _______,          RGB_TOG, _______, _______, _______, _______, _______, KC_KP_7, KC_KP_8, KC_KP_9, KC_PMNS, KC_PSLS, _______, _______, 
-    _______,          _______, _______, _______, _______, _______, _______, KC_KP_4, KC_KP_5, KC_KP_6, KC_PPLS, KC_PAST,          KC_PENT, 
-    _______, ___X___, BL_TOGG, _______, _______, _______, _______, KC_KP_0, KC_KP_1, KC_KP_2, KC_KP_3, KC_PENT, _______,          ___X___, 
+    ___X___, KC_MPRV, KC_MPLY, KC_MNXT, KC_VOLD, KC_VOLU, KC_MUTE, KC_PSCR, KC_SLCK, KC_PAUS, ___X___, ___X___, ___X___, ___X___, RESET  , 
+    ___X___,          RGB_TOG, ___X___, ___X___, ___X___, ___X___, ___X___, KC_KP_7, KC_KP_8, KC_KP_9, KC_PMNS, KC_PSLS, ___X___, ___X___, 
+    _______,          ___X___, ___X___, ___X___, ___X___, ___X___, ___X___, KC_KP_4, KC_KP_5, KC_KP_6, KC_PPLS, KC_PAST,          KC_PENT, 
+    _______, ___X___, BL_TOGG, ___X___, ___X___, ___X___, ___X___, KC_KP_0, KC_KP_1, KC_KP_2, KC_KP_3, KC_PENT, _______,          ___X___, 
     _______,          _______, _______, _______,          _______,          KC_PDOT, _______, _______, ___X___, _______,          _______),
 };
 
