@@ -11,7 +11,7 @@ KEYMAP(
     KC_TAB ,          KC_Q   , KC_W   , KC_E   , KC_R   , KC_T   , KC_Y   , KC_U   , KC_I   , KC_O   , KC_P   , KC_LBRC, KC_RBRC, KC_BSLS,
     MO_ESC ,          KC_A   , KC_S   , KC_D   , KC_F   , KC_G   , KC_H   , KC_J   , KC_K   , KC_L   , KC_SCLN, KC_QUOT,          KC_ENT ,
     KC_LSFT, ___X___, KC_Z   , KC_X   , KC_C   , KC_V   , KC_B   , KC_N   , KC_M   , KC_COMM, KC_DOT , KC_SLSH, KC_RSFT,          ___X___,
-    KC_LCTL,          KC_LGUI, KC_LALT, KC_BSPC,          MO(1)  ,          KC_SPC , KC_RALT, KC_RGUI, ___X___, MO(2)  ,          KC_RCTL),
+    KC_LCTL,          KC_LGUI, KC_LALT, KC_BSPC,          MO(1)  ,          KC_SPC , KC_RALT, MO(2)  , ___X___, KC_APP ,          KC_RCTL),
 
 KEYMAP(
     ___X___, KC_F1  , KC_F2  , KC_F3  , KC_F4  , KC_F5  , KC_F6  , KC_F7  , KC_F8  , KC_F9  , KC_F10 , KC_F11 , KC_F12 , ___X___, KC_DEL ,
