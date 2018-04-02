@@ -14,11 +14,11 @@ KEYMAP(
     KC_LCTL,          KC_LGUI, KC_LALT, KC_BSPC,          MO(1)  ,          KC_SPC , KC_RALT, MO(2)  , ___X___, KC_APP ,          KC_RCTL),
 
 KEYMAP(
-    ___X___, KC_F1  , KC_F2  , KC_F3  , KC_F4  , KC_F5  , KC_F6  , KC_F7  , KC_F8  , KC_F9  , KC_F10 , KC_F11 , KC_F12 , ___X___, KC_DEL ,
+    ___X___, KC_F1  , KC_F2  , KC_F3  , KC_F4  , KC_F5  , KC_F6  , KC_F7  , KC_F8  , KC_F9  , KC_F10 , KC_F11 , KC_F12 , ___X___, KC_INS ,
     ___X___,          ___X___, KC_HOME, KC_UP  , KC_END , KC_PGUP, KC_PGUP, KC_HOME, KC_UP  , KC_END , ___X___, ___X___, ___X___, ___X___,
     KC_CAPS,          ___X___, KC_LEFT, KC_DOWN, KC_RGHT, KC_PGDN, KC_PGDN, KC_LEFT, KC_DOWN, KC_RGHT, ___X___, ___X___,          ___X___,
     _______, ___X___, ___X___, ___X___, ___X___, ___X___, ___X___, ___X___, ___X___, ___X___, ___X___, ___X___, _______,          ___X___,
-    _______,          _______, _______, KC_DEL ,          _______,          KC_INS , _______, TG(2)  , ___X___, _______,          _______),
+    _______,          _______, _______, KC_DEL ,          _______,          _______, _______, TG(2)  , ___X___, _______,          _______),
 
 KEYMAP(
     ___X___, KC_MPRV, KC_MPLY, KC_MNXT, KC_VOLD, KC_VOLU, KC_MUTE, KC_PSCR, KC_SLCK, KC_PAUS, ___X___, ___X___, ___X___, ___X___, RESET  , 
