@@ -18,7 +18,7 @@ KEYMAP(
     ___X___,          ___X___, KC_HOME, KC_UP  , KC_END , KC_PGUP, KC_PGUP, KC_HOME, KC_UP  , KC_END , ___X___, ___X___, ___X___, ___X___,
     KC_CAPS,          ___X___, KC_LEFT, KC_DOWN, KC_RGHT, KC_PGDN, KC_PGDN, KC_LEFT, KC_DOWN, KC_RGHT, ___X___, ___X___,          ___X___,
     _______, ___X___, ___X___, ___X___, ___X___, ___X___, ___X___, ___X___, ___X___, ___X___, ___X___, ___X___, _______,          ___X___,
-    _______,          _______, _______, KC_DEL ,          _______,          _______, _______, TG(2)  , ___X___, _______,          _______),
+    _______,          _______, _______, KC_DEL ,          _______,          _______, _______, TG(2)  , ___X___, KC_RGUI,          _______),
 
 KEYMAP(
     ___X___, KC_MPRV, KC_MPLY, KC_MNXT, KC_VOLD, KC_VOLU, KC_MUTE, KC_PSCR, KC_SLCK, KC_PAUS, ___X___, ___X___, ___X___, ___X___, RESET  , 
