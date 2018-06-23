@@ -16,7 +16,7 @@ KEYMAP(
     KC_TAB ,          KC_Q   , KC_W   , KC_E   , KC_R   , KC_T   , KC_Y   , KC_U   , KC_I   , KC_O   , KC_P   , KC_LBRC, KC_RBRC, KC_BSLS,
     FN1_ESC,          KC_A   , KC_S   , KC_D   , KC_F   , KC_G   , KC_H   , KC_J   , KC_K   , KC_L   , KC_SCLN, KC_QUOT,          KC_ENT ,
     KC_LSFT, ___X___, KC_Z   , KC_X   , KC_C   , KC_V   , KC_B   , KC_N   , KC_M   , KC_COMM, KC_DOT , KC_SLSH, KC_RSFT,          ___X___,
-    KC_LCTL,          KC_LGUI, KC_LALT, KC_BSPC,          FN1_ESC,          KC_SPC , MO(FN2), KC_RALT, ___X___, KC_APP ,          KC_RCTL),
+    KC_LCTL,          KC_LGUI, KC_LALT, KC_BSPC,          FN1_ENT,          KC_SPC , MO(FN2), KC_RALT, ___X___, KC_APP ,          KC_RCTL),
 
 // 1 Colemak https://colemak.com/wiki/images/8/80/Colemak_layout_2.png
 KEYMAP(
@@ -24,7 +24,7 @@ KEYMAP(
     KC_TAB ,          KC_Q   , KC_W   , KC_F   , KC_P   , KC_G   , KC_J   , KC_L   , KC_U   , KC_Y   , KC_SCLN, KC_LBRC, KC_RBRC, KC_BSLS,
     FN1_ESC,          KC_A   , KC_R   , KC_S   , KC_T   , KC_D   , KC_H   , KC_N   , KC_E   , KC_I   , KC_O,    KC_QUOT,          KC_ENT ,
     KC_LSFT, ___X___, KC_Z   , KC_X   , KC_C   , KC_V   , KC_B   , KC_K   , KC_M   , KC_COMM, KC_DOT , KC_SLSH, KC_RSFT,          ___X___,
-    KC_LCTL,          KC_LGUI, KC_LALT, KC_BSPC,          FN1_ESC,          KC_SPC , MO(FN2), KC_RALT, ___X___, KC_APP ,          KC_RCTL),
+    KC_LCTL,          KC_LGUI, KC_LALT, KC_BSPC,          FN1_ENT,          KC_SPC , MO(FN2), KC_RALT, ___X___, KC_APP ,          KC_RCTL),
 
 // 2 Colemak DpgHm http://colemakmods.github.io/ergonomic-mods/gfx/curl_dpghm_ansi.png
 KEYMAP(
@@ -32,7 +32,7 @@ KEYMAP(
     KC_TAB ,          KC_Q   , KC_W   , KC_F   , KC_D   , KC_P   , KC_J   , KC_L   , KC_U   , KC_Y   , KC_SCLN, KC_LBRC, KC_RBRC, KC_BSLS,
     FN1_ESC,          KC_A   , KC_R   , KC_S   , KC_T   , KC_G   , KC_M   , KC_N   , KC_E   , KC_I   , KC_O,    KC_QUOT,          KC_ENT ,
     KC_LSFT, ___X___, KC_Z   , KC_X   , KC_C   , KC_V   , KC_B   , KC_K   , KC_H   , KC_COMM, KC_DOT , KC_SLSH, KC_RSFT,          ___X___,
-    KC_LCTL,          KC_LGUI, KC_LALT, KC_BSPC,          FN1_ESC,          KC_SPC , MO(FN2), KC_RALT, ___X___, KC_APP ,          KC_RCTL),
+    KC_LCTL,          KC_LGUI, KC_LALT, KC_BSPC,          FN1_ENT,          KC_SPC , MO(FN2), KC_RALT, ___X___, KC_APP ,          KC_RCTL),
 
 // 3 Colemak Mod-DH ANSI https://colemakmods.github.io/mod-dh/gfx/mod_dh_keyb_ansi.png
 KEYMAP(
@@ -40,7 +40,7 @@ KEYMAP(
     KC_TAB ,          KC_Q   , KC_W   , KC_F   , KC_P   , KC_B   , KC_J   , KC_L   , KC_U   , KC_Y   , KC_SCLN, KC_LBRC, KC_RBRC, KC_BSLS,
     FN1_ESC,          KC_A   , KC_R   , KC_S   , KC_T   , KC_G   , KC_K   , KC_N   , KC_E   , KC_I   , KC_O,    KC_QUOT,          KC_ENT ,
     KC_LSFT, ___X___, KC_X   , KC_C   , KC_D   , KC_V   , KC_Z   , KC_M   , KC_H   , KC_COMM, KC_DOT , KC_SLSH, KC_RSFT,          ___X___,
-    KC_LCTL,          KC_LGUI, KC_LALT, KC_BSPC,          FN1_ESC,          KC_SPC , MO(FN2), KC_RALT, ___X___, KC_APP ,          KC_RCTL),
+    KC_LCTL,          KC_LGUI, KC_LALT, KC_BSPC,          FN1_ENT,          KC_SPC , MO(FN2), KC_RALT, ___X___, KC_APP ,          KC_RCTL),
 
 // 4 FN1
 KEYMAP(
